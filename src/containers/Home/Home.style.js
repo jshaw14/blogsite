@@ -6,19 +6,20 @@ export const Image = styled.img`
 
 export const HeroImage = styled.div`
   height: 100vh;
-  background-image: url('${require('../../assets/retro.gif')}');
+  background-image: url('${require('../../assets/cat.gif')}');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: top;
+  text-align: right;    
   color: white;
   font-size: 2em;
   h1 {
     margin-bottom: 0;
+    margin-top: 0;
   }
 `;
 
