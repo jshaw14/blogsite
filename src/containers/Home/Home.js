@@ -9,9 +9,9 @@ import {
 import WhenInView from '../../components/WhenInView/WhenInView';
 
 const Container = styled.div`
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 `;
 
 export default class Home extends Component {
