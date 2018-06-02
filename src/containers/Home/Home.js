@@ -7,12 +7,8 @@ import {
   RevealP
 } from './Home.style';
 import WhenInView from '../../components/WhenInView/WhenInView';
+import {Container} from '../../theme/grid';
 
-const Container = styled.div`
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-`;
 
 export default class Home extends Component {
   static propTypes = {};
