@@ -6,9 +6,11 @@ injectGlobal`
 
 
 body {
-    
-font-family: 'Concert One', cursive;
-font-size: 24px
+    font-family: 'Concert One', cursive;
+    font-size: 24px
+}
 
+h1, h2, h3 {
+    font-weight: normal;
 }
 `

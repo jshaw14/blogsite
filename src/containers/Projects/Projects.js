@@ -1,13 +1,20 @@
 import React, {Component} from 'react';
 import Zoomy from 'react-zoomy';
-import {ImageButton} from './Projects.style';
-import {Container} from '../../theme/grid';
+import { ImageButton, Index } from './Projects.style';
+import { Container, Relative, Flex } from '../../theme/grid';
+import { A } from '../../theme/types';
 
 class Projects extends Component {
     render(){
         return (
         <Container>
-        <h1>This is projects</h1>   
+            <Relative marginBottom="100px">
+                <Index>
+                    <h1>01</h1> 
+                </Index>
+            <h1>npm install --save <A href="">react-zoomy</A></h1>
+            </Relative>
+            <Flex justify={'center'}>
             <Zoomy
               imageUrl={require('../../assets/titanic.jpg')}
               renderThumbnail={({ showImage }) => 
@@ -25,6 +32,7 @@ class Projects extends Component {
                 }
               }}
             />
+        </Flex>
         </Container>
         );
     }
