@@ -8,10 +8,9 @@ class Projects extends Component {
     render(){
         return (
         <Container>
-            <Relative marginBottom="100px">
+            <Relative marginBottom='100px'>
                 <Index>
-                    <h1>01</h1> 
-                </Index>
+                    <h1>01</h1></Index>
             <h1>npm install --save <A href="">react-zoomy</A></h1>
             </Relative>
             <Flex justify={'center'}>

@@ -13,8 +13,8 @@ export const HeroImage = styled.div`
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: top;
-  text-align: right;    
+  justify-content: center
+  text-align: center;    
   color: white;
   font-size: 2em;
   h1 {
