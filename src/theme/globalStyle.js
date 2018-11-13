@@ -1,4 +1,5 @@
 import {injectGlobal} from 'styled-components';
+import { black } from './variables'
 
 /*es-lint disabled*/
 injectGlobal`
@@ -7,7 +8,8 @@ injectGlobal`
 
 body {
     font-family: 'Concert One', cursive;
-    font-size: 24px
+    font-size: 24px;
+    color: ${black};
 }
 
 h1, h2, h3 {
