@@ -23,3 +23,13 @@ export const A = styled.a`
         background-color: ${yellow};
     }
 `;
+
+export const H1 = styled.h1`
+    ${({align}) => align && `text-align: ${align};
+    `}
+`;
+
+export const H2 = styled.h2`
+    ${({align}) => align && `text-align: ${align};
+    `}
+`;
