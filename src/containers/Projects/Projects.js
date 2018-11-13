@@ -18,11 +18,11 @@ class Projects extends Component {
             </Relative>
             <Flex justify={'center'} marginBottom="4em">
             <Zoomy
-              imageUrl={require('../../assets/titanic.jpg')}
+              imageUrl={require('../../assets/titanic_tn.jpg')}
               renderThumbnail={({ showImage }) => 
                   <ImageButton  onClick={showImage}>
                     <img 
-                        src={require('../../assets/titanic_tn.jpg')}
+                        src={require('../../assets/titanic_small.png')}
                         alt="titanic"/> 
                     </ImageButton>
                             }
