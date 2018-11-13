@@ -35,7 +35,7 @@ class Projects extends Component {
               }}
             />
         </Flex>
- <Relative marginBottom='100px'>
+ <Relative marginBottom="100px">
                 <Index><h1>02</h1></Index>
             <h1>npm install --save <A href="">react-image-parallax2</A></h1>
             </Relative>

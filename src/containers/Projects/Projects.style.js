@@ -40,4 +40,5 @@ export const ImageContainer = styled.div`
 export const Title = styled.h1`
     color: ${ red };
     font-weight: bold;
+    margin-top: 0;
 `
