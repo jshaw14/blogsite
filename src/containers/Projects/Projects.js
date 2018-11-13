@@ -29,7 +29,7 @@ class Projects extends Component {
               scale={[1,1]}
               imageProps={{
                 style: {
-                  width: '60vw',
+                  width: '80vw',
                   height: 'auto'
                 }
               }}
