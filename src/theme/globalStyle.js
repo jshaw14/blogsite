@@ -3,11 +3,11 @@ import { black } from './variables'
 
 /*es-lint disabled*/
 injectGlobal`
-@import url('https://fonts.googleapis.com/css?family=Concert+One');
+@import url('https://fonts.googleapis.com/css?family=K2D');
 
 
 body {
-    font-family: 'Concert One', cursive;
+    font-family: 'K2D', cursive;
     font-size: 24px;
     color: ${black};
 }

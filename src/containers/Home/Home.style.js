@@ -14,7 +14,7 @@ export const HeroImage = styled.div`
   flex-direction: column;
   align-content: center;
   justify-content: center
-  text-align: center;    
+  text-align: right;    
   color: white;
   font-size: 2em;
   h1 {
