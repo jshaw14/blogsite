@@ -44,16 +44,24 @@ class Projects extends Component {
                 reduceHeight={0.8}
             src="https://r.hswstatic.com/w_907/gif/tesla-cat.jpg"/>    
                 </ImageContainer>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>  
+                <Relative marginBottom="100px">
+                <Index><h1>03</h1></Index>
+            <h1>EDFA</h1>
+            </Relative>
+            <Relative marginBottom="100px">
+                <Index><h1>04</h1></Index>
+            <h1>Ths website</h1>
+            </Relative>
+            <Relative marginBottom="100px">
+                <Index><h1>05</h1></Index>
+            <h1>BV Cen</h1>
+            </Relative>
+                <Relative marginBottom="100px">
+                <Index><h1>06</h1></Index>
+            <h1>CarFinder</h1>
+            </Relative>
         </Container>  
+        
         );
     }
 }
