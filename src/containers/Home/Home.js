@@ -44,6 +44,15 @@ export default class Home extends Component {
         </RevealP>
   }
           </WhenInView>
+
+               <WhenInView>
+        {({isInView})=>
+        <RevealP hide={!isInView}>
+            The above is basically Latin for 'this is meaningless filler text'
+        </RevealP>
+  }
+          </WhenInView>
+
         </Container>
     );
   }
