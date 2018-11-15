@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 export const NavigationContainer = styled(Flex)`
     position: fixed;
     right: 2em;
-    top: 1.8em;
+    //top: 1.8em;
 `;
 
 export const NavItem = styled(Link)`
