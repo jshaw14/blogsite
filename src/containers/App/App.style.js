@@ -4,7 +4,7 @@ export const Background = styled.div`
     position: fixed;
     width: 100vw;
     top: 10vh;
-    height: 80vh;
+    height: 80vw;
     background-image: url('${require('../../assets/geometric.jpg')}');
     background-color: ${yellow};
     opacity: 0.2;
