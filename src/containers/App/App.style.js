@@ -9,7 +9,7 @@ export const Background = styled.div`
     background-color: ${yellow};
     opacity: 0.2;
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     z-index: -99;
 `;
