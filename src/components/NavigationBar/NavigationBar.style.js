@@ -15,6 +15,7 @@ export const NavItem = styled(Link)`
     color: ${blue};
     position: relative;
     text-decoration: none;
+    background-color: white;
 
     &:hover{
         color: ${yellow};
