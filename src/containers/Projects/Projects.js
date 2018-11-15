@@ -16,6 +16,7 @@ class Projects extends Component {
                 </Index>
             <h1>npm install --save <A href="">react-zoomy</A></h1>
             </Relative>
+            <p>This is a sample project I have included here.  Credit to FroDev for their development.  Hover over or click on the image.</p>
             <Flex justify={'center'} marginBottom="4em">
             <Zoomy
               imageUrl={require('../../assets/titanic_tn.jpg')}
@@ -35,31 +36,36 @@ class Projects extends Component {
               }}
             />
         </Flex>
- <Relative marginBottom="100px">
+ <Relative marginBottom="50px">
                 <Index><h1>02</h1></Index>
             <h1>npm install --save <A href="">react-image-parallax2</A></h1>
             </Relative>
+            <p>This is a sample project I have included here.  Credit to FroDev for their development.  The image scrolls in itself.</p>
 <ImageContainer>
             <ParallaxImage
-                reduceHeight={0.3}
+                reduceHeight={0.4}
             src="https://r.hswstatic.com/w_907/gif/tesla-cat.jpg"/>    
                 </ImageContainer>
-                <Relative marginBottom="100px">
+                <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>03</h1></Index>
             <h1>EDFA</h1>
             </Relative>
-            <Relative marginBottom="100px">
+            <p>Erbium Doped Fibre Amplifiers, obviously.</p>
+            <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>04</h1></Index>
             <h1>Ths website</h1>
             </Relative>
-            <Relative marginBottom="100px">
+            <p>This website was created using React JS with npm.  I followed the tutorials set out by FroDev and made tweaks.</p>
+            <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>05</h1></Index>
             <h1>BV Cen</h1>
             </Relative>
-                <Relative marginBottom="100px">
+            <p>BV Cen - is it a possible supernova progenitor?  I tried to get to the bottom of the case.  I was studying Astrophysics at the time.</p>
+                <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>06</h1></Index>
             <h1>CarFinder</h1>
             </Relative>
+            <p>This was an Android app developed at University to enable the user to locate their parked car.</p>
         </Container>  
         
         );
