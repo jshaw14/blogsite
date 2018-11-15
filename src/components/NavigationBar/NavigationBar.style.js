@@ -7,6 +7,7 @@ export const NavigationContainer = styled(Flex)`
     position: fixed;
     right: 2em;
     background-color: white;
+    z-index:1;
 `;
 
 export const NavItem = styled(Link)`
