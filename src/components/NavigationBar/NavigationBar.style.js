@@ -1,22 +1,26 @@
 import styled from 'styled-components';
 import { Div, Flex } from '../../theme/grid';
-import { blue, yellow, red } from '../../theme/variables';
+import { blue, yellow, red, black } from '../../theme/variables';
 import { Link } from 'react-router';
 
 export const NavigationContainer = styled(Flex)`
+    top:0;
+    width: 100vw;
     position: fixed;
-    right: 2em;
     background-color: white;
     z-index:1;
+    opacity: 0.8;
+    justify-content: flex-end;
 `;
 
 export const NavItem = styled(Link)`
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 1.5em;
     cursor: pointer;
-    color: ${blue};
+    color: ${black};
     position: relative;
-    text-decoration: none;
+    text-decoration: none; 
 
     &:hover{
         color: ${yellow};
@@ -29,7 +33,7 @@ export const NavItem = styled(Link)`
             height: 100%;
             background-color: ${red};
             z-index: -1;
-            transform: scale(1.3, 1.5);
+            transform: scale(1.5, 1.3);
         }
     }
 `;

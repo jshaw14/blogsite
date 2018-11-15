@@ -5,18 +5,22 @@ export const Image = styled.img`
 `;
 
 export const HeroImage = styled.div`
-  height: 100vh;
-  background-image: url('${require('../../assets/cat.gif')}');
+  height: 80vh;
+  background-image: url('${require('../../assets/skydive.JPG')}');
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-top: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center
-  text-align: right;    
+  justify-content: flex-start;
+  text-align: left;    
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   h1 {
     margin-bottom: 0;
     margin-top: 0;
@@ -32,7 +36,7 @@ export const RevealP = styled.p`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: white;
     transform-origin: left;
     transform: rotateY(90deg);
     transition: transform 1s;

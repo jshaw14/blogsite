@@ -18,13 +18,12 @@ export default class Home extends Component {
         <Container>
         <HeroImage>
           <h1>Jordan Shaw</h1>
-          <h2>Developer</h2>
         </HeroImage>
         
        <WhenInView>
         {({isInView})=>
         <RevealP hide={!isInView}>
-          This will be my online portfolio.  Have I finished it yet?
+          Welcome to my portfolio.
         </RevealP>
   }
           </WhenInView>
@@ -32,7 +31,7 @@ export default class Home extends Component {
         <WhenInView>
         {({isInView})=>
         <RevealP hide={!isInView}>
-          No, I have not.  It is a work in progress.  This highly anticipated project will be completed late 2018.
+          It is a work in progress.  This highly anticipated project will be completed late 2018.
         </RevealP>
   }
           </WhenInView>
