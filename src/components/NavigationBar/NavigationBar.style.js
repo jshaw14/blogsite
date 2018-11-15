@@ -6,6 +6,7 @@ import { Link } from 'react-router';
 export const NavigationContainer = styled(Flex)`
     position: fixed;
     right: 2em;
+    background-color: white;
 `;
 
 export const NavItem = styled(Link)`
@@ -15,7 +16,6 @@ export const NavItem = styled(Link)`
     color: ${blue};
     position: relative;
     text-decoration: none;
-    background-color: white;
 
     &:hover{
         color: ${yellow};
