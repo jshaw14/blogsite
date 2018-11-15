@@ -41,7 +41,7 @@ class Projects extends Component {
             </Relative>
 <ImageContainer>
             <ParallaxImage
-                reduceHeight={0.8}
+                reduceHeight={0.3}
             src="https://r.hswstatic.com/w_907/gif/tesla-cat.jpg"/>    
                 </ImageContainer>
                 <Relative marginBottom="100px">
