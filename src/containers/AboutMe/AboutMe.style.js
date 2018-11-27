@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 import { red } from '../../theme/variables';
-import { Relative } from '../../theme/grid';
+import { Relative, Flex } from '../../theme/grid';
 
 export const Title = styled.h1`
     margin-top: 0;
     color: ${red};
 `;
 
-export const VideoContainer = styled(Relative)`
+export const VideoContainer = styled(Flex)`
     width: 50%;
+    padding-left: 10px;
     flex-shrink: 0;
     flex-grow: 0;
 `;
