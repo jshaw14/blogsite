@@ -32,7 +32,7 @@ export const Index = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-    width: 800px;
+    width: 60vw;
     margin-left: auto;
     margin-right: auto;
 `
