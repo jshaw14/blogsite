@@ -38,7 +38,7 @@ class Projects extends Component {
         </Flex>
  <Relative marginBottom="50px">
                 <Index><h1>02</h1></Index>
-            <h1>npm install --save <A href="">react-image-parallax2</A></h1>
+            <h1>MagnetArt</h1>
             </Relative>
             <p>This is a sample project I have included here.  Credit to FroDev for their development.  The image scrolls in itself.</p>
 <ImageContainer>
@@ -70,7 +70,7 @@ class Projects extends Component {
                 <Index><h1>07</h1></Index>
             <h1>?</h1>
             </Relative>
-            <p>This one is secret.</p>
+            <p>More is in the works.</p>
         </Container>  
         
         

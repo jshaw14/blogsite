@@ -10,7 +10,7 @@ export const HeroImage = styled.div`
   margin-top: 20px;
   margin-bottom: 50px;
   padding-left: 10px;
-  padding-top: 20px;
+  padding-top: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -7,7 +7,6 @@ export const NavigationContainer = styled(Flex)`
     top:0;
     width: 100vw;
     position: fixed;
-    background-color: white;
     z-index:1;
     opacity: 0.8;
     justify-content: flex-end;

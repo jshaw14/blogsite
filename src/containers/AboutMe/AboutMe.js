@@ -24,7 +24,9 @@ class AboutMe extends Component {
             <H2>Academic Background</H2>
             <ul>
             <li>2013-2016: Queen's University Belfast, BSc Physics</li>
+            <p>Achieved first class honours and 'Class of 59' prize for best mark in BSc project </p>
             <li>2016-2017: Queen's University Belfast, MSc Software Development</li>
+            <p>Pass with distinction</p>
             </ul>
             <H2>Work Experience</H2>
             <ul>
@@ -33,6 +35,8 @@ class AboutMe extends Component {
             <H2>Technical Skills</H2>
             <p>Java, Javascript, HTML, React JS, SQL, XML, C</p>
             <p>Maven, Github, Android Studio</p>
+            <p>Certified SAFe® 4 Agilist</p>
+            <img src={require('../../assets/certified-safe-4-agilist.png')} alt="" height='256'/>
       </Container>
     );
   }

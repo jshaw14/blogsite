@@ -3,12 +3,12 @@ import { black } from './variables'
 
 /*es-lint disabled*/
 injectGlobal`
-@import url('https://fonts.googleapis.com/css?family=K2D');
+@import url('https://fonts.googleapis.com/css?family=Chathura');
 
 
 body {
-    font-family: 'K2D', cursive;
-    font-size: 24px;
+    font-family: 'Chathura', sans-serif;
+    font-size: 36px;
     color: ${black};
 }
 

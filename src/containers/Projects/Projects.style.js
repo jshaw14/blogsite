@@ -25,7 +25,7 @@ export const Index = styled.div`
     h1 {
         margin-bottom: 0;
         font-weight: bold;
-        color: ${yellow};
+        color: darkcyan;
         opacity: 0.5;
         transform: translateY(20%);
     }

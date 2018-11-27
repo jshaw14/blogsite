@@ -1,14 +1,13 @@
 import styled from 'styled-components';
-import { yellow } from '../../theme/variables';
 export const Background = styled.div`
     position: fixed;
     width: 100vw;
-    height: 80vw;
-    background-image: url('${require('../../assets/geometric.jpg')}');
-    background-color: ${yellow};
-    opacity: 0.2;
-    background-size: cover;
-    background-repeat: repeat;
+    height: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image: url('${require('../../assets/7063.jpg')}');
+    opacity:0.5;
+    background-size: contain;
     background-position: center;
     z-index: -99;
 `;
