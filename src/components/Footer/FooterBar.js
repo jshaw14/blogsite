@@ -6,7 +6,7 @@ class FooterBar extends Component {
         return (
             <FooterContainer>
                 <FooterItem>
-           <a href="https://github.com/jshaw14"><img src={require('../../assets/GitHub-Mark-32px.png')} alt=""/></a>
+           <a href="https://github.com/jshaw14"><img src={require('../../assets/GitHub-Mark-120px-plus.png')} height="48" width="auto" alt=""/></a>
             </FooterItem>
             </FooterContainer>
         );
