@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { Div, Flex } from '../../theme/grid';
-import { blue, yellow, red, black } from '../../theme/variables';
-import { Link } from 'react-router';
+import { blue, yellow, black } from '../../theme/variables';
 
 export const FooterContainer = styled(Flex)`
     bottom:0;

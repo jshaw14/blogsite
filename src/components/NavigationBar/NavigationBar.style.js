@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Div, Flex } from '../../theme/grid';
 import { blue, yellow, red, black } from '../../theme/variables';
 import { Link } from 'react-router';
+import media from '../../theme/media';
 
 export const NavigationContainer = styled(Flex)`
     top:0;
@@ -20,6 +21,14 @@ export const NavItem = styled(Link)`
     color: ${black};
     position: relative;
     text-decoration: none; 
+    ${media.tablet`
+        margin-left: 20px;
+        margin-right: 20px;
+    `}
+    ${media.phone`
+        margin-left: 10px;
+        margin-right: 10px;
+    `}
 
     &:hover{
         color: ${yellow};
