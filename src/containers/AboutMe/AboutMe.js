@@ -28,7 +28,7 @@ class AboutMe extends Component {
             </ul>
             <H2>Work Experience</H2>
             <ul>
-            <li>2018-present: Software Developer, ANI</li>
+            <li>2018-present: Software Developer, Allstate Northern Ireland</li>
             </ul>
             <H2>Technical Skills</H2>
             <p>Java, Javascript, HTML, React JS, SQL, XML, C</p>
