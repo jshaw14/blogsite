@@ -11,6 +11,7 @@ export const NavigationContainer = styled(Flex)`
     z-index:1;
     opacity: 0.8;
     justify-content: flex-end;
+    background-color: white;
 `;
 
 export const NavItem = styled(Link)`
