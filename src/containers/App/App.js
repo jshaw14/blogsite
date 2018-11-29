@@ -17,7 +17,7 @@ class App extends Component {
       <div>
         <Background/>
         <NavigationBar/>
-        <FooterBar/>
+//footer here
         {this.props.children}
       </div>
     );

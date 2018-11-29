@@ -10,6 +10,7 @@ export const FooterContainer = styled(Flex)`
     opacity: 0.8;
     justify-content: flex-end;
     background-color: black;
+    height: 40px;
 `;
 
 export const FooterItem = styled(Div)`
@@ -20,6 +21,8 @@ export const FooterItem = styled(Div)`
     color: ${black};
     position: relative;
     text-decoration: none; 
+    height: 32px;
+    width: auto;
 
     &:hover{
         color: ${yellow};
