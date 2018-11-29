@@ -5,7 +5,7 @@ import { blue, yellow, black } from '../../theme/variables';
 export const FooterContainer = styled(Flex)`
     bottom:0;
     width: 100vw;
-    position: fixed;
+    position: absolute;
     z-index:1;
     opacity: 0.8;
     justify-content: flex-end;
