@@ -53,7 +53,7 @@ class Projects extends Component {
             <p>Erbium Doped Fibre Amplifiers, obviously.</p>
             <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>04</h1></Index>
-            <h1>Ths website</h1>
+            <h1>This website</h1>
             </Relative>
             <p>This website was created using React JS with npm.  I followed the tutorials set out by FroDev and made tweaks.</p>
             <Relative marginTop="100px" marginBottom="50px">
