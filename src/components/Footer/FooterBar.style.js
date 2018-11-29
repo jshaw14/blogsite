@@ -18,7 +18,7 @@ export const FooterItem = styled(Div)`
     font-size: 1.5em;
     cursor: pointer;
     color: ${black};
-    position: fixed;
+    position: relative;
     text-decoration: none; 
 
     &:hover{
