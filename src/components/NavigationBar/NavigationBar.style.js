@@ -25,12 +25,12 @@ export const NavItem = styled(Link)`
     position: relative;
     text-decoration: none; 
     ${media.tablet`
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
     `}
     ${media.phone`
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
     `}
 
     &:hover{
