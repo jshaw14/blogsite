@@ -3,7 +3,7 @@ import { Div, Flex } from '../../theme/grid';
 import { blue, yellow, black } from '../../theme/variables';
 
 export const FooterContainer = styled(Flex)`
-    bottom:0;
+    bottom: 0;
     width: 100vw;
     position: relative;
     z-index:1;
@@ -28,7 +28,7 @@ export const FooterItem = styled(Div)`
             content: ' ';
             position: absolute;
             left: 0;
-            top: 0;
+            bottom: 0;
             width: 100%;
             height: 100%;
             z-index: -1;
