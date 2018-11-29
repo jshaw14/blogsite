@@ -14,7 +14,8 @@ class AboutMe extends Component {
           <P align="left">This website is the start of something truly special.  Maybe I'll add a video now.</P>
           <VideoContainer align="right">
           <ReactPlayer
-            url={require('../../assets/street-performer.mp4')}/>
+            url={require('../../assets/street-performer.mp4')}
+            controls />
            </VideoContainer> 
             </Flex>
             <P>Hope you liked that.  This will be a bio of my life.  I am a software developer from Belfast.
