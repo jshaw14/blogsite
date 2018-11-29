@@ -21,7 +21,7 @@ export const FooterItem = styled(Div)`
     color: ${black};
     position: relative;
     text-decoration: none; 
-    height: 32px;
+    height: auto;
     width: auto;
 
     &:hover{
