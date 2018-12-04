@@ -55,7 +55,7 @@ class Projects extends Component {
                 <Index><h1>04</h1></Index>
             <h1>This website</h1>
             </Relative>
-            <p>This website was created using React JS with npm.  I followed the tutorials set out by FroDev and made tweaks.</p>
+            <p>This website was created using React JS with npm.  I followed the tutorials set out by FroDev and made tweaks.  The site is deployed using Netlify.  I have a keen interest in web development so this site has been a fun hobby, but I'm a perfectionist too so it is a constant work in progress!</p>
             <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>05</h1></Index>
             <h1>BV Cen</h1>
