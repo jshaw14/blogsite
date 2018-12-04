@@ -14,9 +14,9 @@ class Projects extends Component {
                 <Index>
                     <h1>01</h1>
                 </Index>
-            <h1>npm install --save <A href="">react-zoomy</A></h1>
+            <h1>Modelling Chaos theory iterative maps using C</h1>
             </Relative>
-            <p>This is a sample project I have included here.  Credit to FroDev for their development.  Hover over or click on the image.</p>
+            <p>A university project using a C program to produce an iterative map and find the Lyapunov exponent.</p>
             <Flex justify={'center'} marginBottom="4em">
             <Zoomy
               imageUrl={require('../../assets/titanic_tn.jpg')}
@@ -40,7 +40,7 @@ class Projects extends Component {
                 <Index><h1>02</h1></Index>
             <h1>MagnetArt</h1>
             </Relative>
-            <p>This is a sample project I have included here.  Credit to FroDev for their development.  The image scrolls in itself.</p>
+            <p>This was the subject of my MSc dissertation.  The idea was to produce an Android application whcih could be controlled using a magnet.</p>
 <ImageContainer>
             <ParallaxImage
                 reduceHeight={0.4}
