@@ -4,6 +4,7 @@ import Home from './containers/Home/Home';
 import App from './containers/App/App';
 import Projects from './containers/Projects/Projects';
 import AboutMe from './containers/AboutMe/AboutMe';
+import Contact from './containers/Contact/Contact';
 
 Router.prototype.componentWillReceiveProps = function(nextProps) {
   let components = [];
@@ -26,6 +27,7 @@ export default (
     <IndexRoute component={Home}/>
     <Route path="/projects" component={Projects}/>
     <Route path="/bio" component={AboutMe}/>
+    <Route path="/contact" component={Contact}/>
     </Route>
 </Router>	
 );
