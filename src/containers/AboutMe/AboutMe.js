@@ -18,7 +18,7 @@ class AboutMe extends Component {
             controls />
            </VideoContainer> 
             </Flex>
-            <P>Hope you liked that.  This will be a bio of my life.  I am a software developer from Belfast.
+            <P>Hope you liked that.  This will be a bio of my life.  I am a software developer from Belfast.  I would describe myself as a bit of a generalist though.
                   My previous work includes window cleaning, retail, cleaning a care home, admin at an estate agency, 
                   entertaining groups at an escape room and marketing for a university careers service.  Very conventional. 
             </P>
@@ -28,6 +28,8 @@ class AboutMe extends Component {
             <p>Achieved first class honours and 'Class of 59' prize for best mark in BSc project </p>
             <li>2016-2017: Queen's University Belfast, MSc Software Development</li>
             <p>Pass with distinction</p>
+            <li>Other Qualifications</li>
+            <p>Google Digital Garage Certificate of Online Proficiency</p>
             </ul>
             <H2>Work Experience</H2>
             <ul>

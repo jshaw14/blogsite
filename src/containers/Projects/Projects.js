@@ -14,9 +14,9 @@ class Projects extends Component {
                 <Index>
                     <h1>01</h1>
                 </Index>
-            <h1>npm install --save <A href="">react-zoomy</A></h1>
+            <h1>Modelling Chaos theory iterative maps using C</h1>
             </Relative>
-            <p>This is a sample project I have included here.  Credit to FroDev for their development.  Hover over or click on the image.</p>
+            <p>A university project using a C program to produce an iterative map and find the Lyapunov exponent.</p>
             <Flex justify={'center'} marginBottom="4em">
             <Zoomy
               imageUrl={require('../../assets/titanic_tn.jpg')}
@@ -40,7 +40,7 @@ class Projects extends Component {
                 <Index><h1>02</h1></Index>
             <h1>MagnetArt</h1>
             </Relative>
-            <p>This is a sample project I have included here.  Credit to FroDev for their development.  The image scrolls in itself.</p>
+            <p>This was the subject of my MSc dissertation.  The idea was to produce an Android application whcih could be controlled using a magnet.</p>
 <ImageContainer>
             <ParallaxImage
                 reduceHeight={0.4}
@@ -55,7 +55,7 @@ class Projects extends Component {
                 <Index><h1>04</h1></Index>
             <h1>This website</h1>
             </Relative>
-            <p>This website was created using React JS with npm.  I followed the tutorials set out by FroDev and made tweaks.</p>
+            <p>This website was created using React JS with npm.  I followed the tutorials set out by FroDev and made tweaks.  The site is deployed using Netlify.  I have a keen interest in web development so this site has been a fun hobby, but I'm a perfectionist too so it is a constant work in progress!</p>
             <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>05</h1></Index>
             <h1>BV Cen</h1>
