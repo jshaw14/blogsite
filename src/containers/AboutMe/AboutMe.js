@@ -28,7 +28,9 @@ class AboutMe extends Component {
             <p>Achieved first class honours and 'Class of 59' prize for best mark in BSc project </p>
             <li>2016-2017: Queen's University Belfast, MSc Software Development</li>
             <p>Pass with distinction</p>
+            </ul>
             <H3>Other Qualifications</H3>
+            <ul>
             <li>Google Digital Garage Certificate of Online Proficiency</li>
             </ul>
             <H2>Work Experience</H2>
