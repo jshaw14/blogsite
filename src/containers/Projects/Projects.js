@@ -1,21 +1,25 @@
 import React, {Component} from 'react';
 import Zoomy from 'react-zoomy';
-import { ImageButton, Index, ImageContainer, Title } from './Projects.style';
+import { ImageButton, Index, ImageContainer } from './Projects.style';
 import { Container, Relative, Flex } from '../../theme/grid';
 import ParallaxImage from 'react-image-parallax2';
+import { Title } from '../../theme/types';
 
 class Projects extends Component {
     render(){
         return (
         <Container>
             <Title>Projects</Title>
+            <p>As a recent graduate finding his feet in the Software Industry, I don't have a big list of fully formed
+                projects so I've included work from my time at uni.  I'm learning and trying new things, so this list will improve and expand.
+            </p>
             <Relative marginTop='100px' marginBottom='50px'>
                 <Index>
                     <h1>01</h1>
                 </Index>
-            <h1>Modelling Chaos theory iterative maps using C</h1>
+                <h1>CarFinder</h1>
             </Relative>
-            <p>A university project using a C program to produce an iterative map and find the Lyapunov exponent.</p>
+            <p>This was an Android app developed at University to enable the user to locate their parked car.</p>
             <Flex justify={'center'} marginBottom="4em">
             <Zoomy
               imageUrl={require('../../assets/titanic_tn.jpg')}
@@ -62,11 +66,6 @@ class Projects extends Component {
             <p>BV Cen - is it a possible supernova progenitor?  I tried to get to the bottom of the case.  I was studying Astrophysics at the time.</p>
                 <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>06</h1></Index>
-            <h1>CarFinder</h1>
-            </Relative>
-            <p>This was an Android app developed at University to enable the user to locate their parked car.</p>
-            <Relative marginTop="100px" marginBottom="50px">
-                <Index><h1>07</h1></Index>
             <h1>?</h1>
             </Relative>
             <p>More is in the works.</p>

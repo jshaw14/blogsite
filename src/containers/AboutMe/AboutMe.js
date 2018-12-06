@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Flex } from '../../theme/grid';
-import { Title, VideoContainer } from './AboutMe.style';
+import { VideoContainer } from './AboutMe.style';
 import ReactPlayer from 'react-player';
-import { H2, P } from '../../theme/types';
+import { H2, P, Title } from '../../theme/types';
 
 class AboutMe extends Component {
   render() {

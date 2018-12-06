@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Container} from '../../theme/grid';
-
+import { Title } from '../../theme/types';
 
 export default class Contact extends Component {
   static propTypes = {};
@@ -8,6 +8,7 @@ export default class Contact extends Component {
   render() {
     return (
         <Container>
+   <Title>Contact</Title>
    <p>Please feel free to contact me.</p>
    <p><a href="https://www.linkedin.com/in/jordanwshaw/"><img src={require('../../assets/Logo-2C-75px-R.png')} height="32" width="auto" alt=""/></a></p>     
    <p><a href="https://github.com/jshaw14"><img src={require('../../assets/GitHub_Logo.png')} height="48" width="auto" alt=""/></a></p>

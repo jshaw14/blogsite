@@ -17,7 +17,6 @@ export default class Home extends Component {
         <HeroImage>
           <h1>Jordan Shaw</h1>
         </HeroImage>
-
         <WhenInView>
         {({isInView})=>
         <RevealP hide={!isInView}>

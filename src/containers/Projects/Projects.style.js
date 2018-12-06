@@ -25,7 +25,7 @@ export const Index = styled.div`
     h1 {
         margin-bottom: 0;
         font-weight: bold;
-        color: darkcyan;
+        color: ${red};
         opacity: 0.5;
         transform: translateY(20%);
     }
@@ -35,10 +35,4 @@ export const ImageContainer = styled.div`
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
-`
-
-export const Title = styled.h1`
-    color: ${ red };
-    font-weight: bold;
-    margin-top: 0;
 `

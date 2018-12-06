@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { blue, yellow } from './variables';
+import { blue, yellow, red } from './variables';
 
 export const A = styled.a`
     color: ${blue};
@@ -30,3 +30,9 @@ export const[H1, H2, H3, H4, H5, H6, P, Blockquote, Code]=
     ${({ align }) => align && `text-align: ${align};
     `}
 `)
+
+export const Title = styled.h1`
+    margin-top: 0;
+    color: ${red};
+    font-weight: bold;
+`;
