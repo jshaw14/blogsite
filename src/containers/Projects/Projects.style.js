@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { yellow, red } from '../../theme/variables';
+import { red } from '../../theme/variables';
 
 export const ImageButton = styled.div`
     cursor: pointer;

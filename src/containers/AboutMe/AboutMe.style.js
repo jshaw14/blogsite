@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { red } from '../../theme/variables';
-import { Relative, Flex } from '../../theme/grid';
+import { Flex } from '../../theme/grid';
 
 export const Title = styled.h1`
     margin-top: 0;

@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Zoomy from 'react-zoomy';
 import { ImageButton, Index, ImageContainer, Title } from './Projects.style';
 import { Container, Relative, Flex } from '../../theme/grid';
-import { A } from '../../theme/types';
 import ParallaxImage from 'react-image-parallax2';
 
 class Projects extends Component {
