@@ -35,7 +35,7 @@ export default class Home extends Component {
 
                <WhenInView>
         {({isInView})=>
-        <RevealP hide={!isInView}><img src={require('../../assets/jshawisometric2.png')} alt="" height="256"/>
+        <RevealP hide={!isInView}><img src={require('../../assets/jshawisometric3.png')} alt="" height="256"/>
         </RevealP>
   }
           </WhenInView>
