@@ -27,21 +27,31 @@ class AboutMe extends Component {
             <H2>Academic Background</H2>
             <ul>
             <li>2013-2016: Queen's University Belfast, BSc Physics</li>
-            <p>Achieved first class honours and 'Class of 59' prize for best mark in BSc project </p>
+            <p>Achieved first class honours, 'Class of 59' prize for best mark in BSc project </p>
+            <p>After leaving school, I studied Physics at Queen's.  I particularly enjoyed the modules in Astrophysics
+              and Solid State Physics, and also got my first taste of programming by using C.  My final year research included projects on
+              the characteristics of Erbium Doped Fibre Amplifiers and the binary star BV Cen as a possible supernova progenitor.  
+              The BV Cen project involved using the Linux software Molly to analyse spectral data.</p>
             <li>2016-2017: Queen's University Belfast, MSc Software Development</li>
             <p>Pass with distinction</p>
+            <p>A conversion course masters degree which included modules in Software Engineering, Databases, Java Programming, Software Testing and Verification,
+              Android App Development and an individual development project.</p>
+              <p>Technologies learned included Java, XML, HTML, Android App Development, SQL</p>
+              <p>Achieved a distinction in individual project.  The project produced an Android application which allowed the user to draw on 
+                screen using a magnet held near the phone.  The magnet acted as a stylus.
+              </p>
             <li>Other Qualifications</li>
             <p>Google Digital Garage Certificate of Online Proficiency</p>
             </ul>
             <H2>Work Experience</H2>
             <ul>
             <li>2018-present: Software Developer, Allstate Northern Ireland</li>
-            <p>This was a Java developer role which involved using XML, Github, Maven</p>
+            <p>This was a Java developer role in a scrum team as part of a scaled agile program.</p>
             <p>While at Allstate I have taken training courses in both technical and soft skills</p>
             </ul>
             <H2>Technical Skills</H2>
-            <p>Java, Javascript, HTML, React JS, SQL, XML, C</p>
-            <p>Maven, Github, Android Studio</p>
+            <p>Java, Javascript, HTML, CSS, React JS, SQL, XML, C</p>
+            <p>Maven, Github, Android Studio, Trello, JIRA, Jenkins</p>
             <p>Certified SAFe® 4 Agilist</p>
             <img src={require('../../assets/certified-safe-4-agilist.png')} alt="" height='128'/>
             <H2>Other Interests</H2>
