@@ -4,8 +4,12 @@ import { ImageButton, Index, ImageContainer } from './Projects.style';
 import { Container, Relative, Flex } from '../../theme/grid';
 import ParallaxImage from 'react-image-parallax2';
 import { Title } from '../../theme/types';
+import EDFApdf from "../../assets/EDFAFinalReport.pdf";
+import BVCenReport from "../../assets/BVCenReport.pdf";
+import Dissertation from "../../assets/Dissertation.pdf"
 
 class Projects extends Component {
+
     render(){
         return (
         <Container>
@@ -43,17 +47,19 @@ class Projects extends Component {
                 <Index><h1>02</h1></Index>
             <h1>MagnetArt</h1>
             </Relative>
-            <p>This was the subject of my MSc dissertation.  The idea was to produce an Android application whcih could be controlled using a magnet.</p>
+            <p>This was the subject of my MSc dissertation.  The idea was to produce an Android application which could be controlled using a magnet.</p>
 <ImageContainer>
             <ParallaxImage
                 reduceHeight={0.4}
-                src={require('../../assets/valencia.jpg')}/>    
+                src={require('../../assets/screen_loading.png')}/>    
                 </ImageContainer>
                 <Relative marginTop="100px" marginBottom="50px">
+                <a href={Dissertation} target="_blank">Open PDF</a>
                 <Index><h1>03</h1></Index>
             <h1>EDFA</h1>
             </Relative>
-            <p>Erbium Doped Fibre Amplifiers, obviously.</p>
+            <p>This formed half of the final year Physics project.  Experiments were carried out to investigate the characteristics of Erbium Doped Fibre Amplifiers.  These have applications in communications such as optical fibres.</p>
+        <a href={EDFApdf} target="_blank">Open PDF</a>
             <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>04</h1></Index>
             <h1>This website</h1>
@@ -63,7 +69,8 @@ class Projects extends Component {
                 <Index><h1>05</h1></Index>
             <h1>BV Cen</h1>
             </Relative>
-            <p>BV Cen - is it a possible supernova progenitor?  I tried to get to the bottom of the case.  I was studying Astrophysics at the time.</p>
+            <p>This was an astrophysics project investigating whether the binary system BV Cen could be a possible supernova progenitor.  It formed half of my part of final year Physics project work.</p>
+            <a href={BVCenReport} target="_blank">Open PDF</a>
                 <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>06</h1></Index>
             <h1>?</h1>
