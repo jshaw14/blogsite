@@ -14,8 +14,7 @@ class Projects extends Component {
         return (
         <Container>
             <Title>Projects</Title>
-            <p>As a recent graduate finding his feet in the Software Industry, I don't have a big list of fully formed
-                projects so I've included work from my time at uni.  I'm learning and trying new things, so this list will improve and expand.
+            <p>As a recent graduate finding his feet in the Software Industry, I've included work from my time at uni.  I'm learning and trying new things, so this list will improve and expand.
             </p>
             <Relative marginTop='100px' marginBottom='50px'>
                 <Index>
@@ -64,7 +63,7 @@ class Projects extends Component {
                 <Index><h1>04</h1></Index>
             <h1>This website</h1>
             </Relative>
-            <p>This website was created using React JS with npm.  I followed the tutorials set out by FroDev and made tweaks.  The site is deployed using Netlify.  I have a keen interest in web development so this site has been a fun hobby, but I'm a perfectionist too so it is a constant work in progress!</p>
+            <p>This website was created using React JS with npm.  I followed the tutorials set out by FroDev and made tweaks.  The site is deployed using Netlify.  I have a keen interest in web development so this site has been a fun hobby, it is also a constant work in progress!</p>
             <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>05</h1></Index>
             <h1>BV Cen</h1>
