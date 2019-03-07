@@ -26,11 +26,11 @@ class Projects extends Component {
             <p>This was an Android app developed at University to enable the user to locate their parked car.</p>
             <Flex justify={'center'} marginBottom="4em">
             <Zoomy
-              imageUrl={require('../../assets/titanic_tn.jpg')}
+              imageUrl={require('../../assets/findmycar2.png')}
               renderThumbnail={({ showImage }) => 
                   <ImageButton  onClick={showImage}>
                     <img 
-                        src={require('../../assets/titanic_small.png')}
+                        src={require('../../assets/findmycar2.png')}
                         alt="titanic"/> 
                     </ImageButton>
                             }
