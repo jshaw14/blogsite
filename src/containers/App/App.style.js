@@ -6,7 +6,7 @@ export const Background = styled.div`
     margin: 0;
     padding: 0;
     background-image: url('${require('../../assets/7063.jpg')}');
-    opacity:0.5;
+    opacity:0.3;
     background-size: contain;
     background-position: center;
     z-index: -99;
