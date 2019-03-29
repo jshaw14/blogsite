@@ -6,7 +6,7 @@ export const Background = styled.div`
     margin: 0;
     padding: 0;
     background-image: url('${require('../../assets/geometric.jpg')}');
-    opacity:0.8;
+    opacity:0.3;
     background-size: contain;
     background-position: center;
     z-index: -99;
