@@ -5,8 +5,8 @@ export const Background = styled.div`
     height: 100vw;
     margin: 0;
     padding: 0;
-    background-image: url('${require('../../assets/7063.jpg')}');
-    opacity:0.3;
+    background-image: url('${require('../../assets/geometric.jpg')}');
+    opacity:0.8;
     background-size: contain;
     background-position: center;
     z-index: -99;
