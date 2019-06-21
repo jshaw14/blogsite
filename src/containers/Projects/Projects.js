@@ -58,7 +58,7 @@ class Projects extends Component {
             <h1>EDFA</h1>
             </Relative>
             <p>This formed half of the final year Physics project.  Experiments were carried out to investigate the characteristics of Erbium Doped Fibre Amplifiers.  These have applications in communications such as optical fibres.</p>
-        <a href={EDFApdf} target="_blank">Open PDF</a>
+        //<a href={EDFApdf} target="_blank">Open PDF</a>
             <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>04</h1></Index>
             <h1>This website</h1>
@@ -69,7 +69,7 @@ class Projects extends Component {
             <h1>BV Cen</h1>
             </Relative>
             <p>This was an astrophysics project investigating whether the binary system BV Cen could be a possible supernova progenitor.  It formed half of my part of final year Physics project work.</p>
-            <a href={BVCenReport} target="_blank">Open PDF</a>
+            //<a href={BVCenReport} target="_blank">Open PDF</a>
                 <Relative marginTop="100px" marginBottom="50px">
                 <Index><h1>06</h1></Index>
             <h1>?</h1>
