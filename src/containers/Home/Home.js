@@ -28,7 +28,7 @@ export default class Home extends Component {
         <WhenInView>
         {({isInView})=>
         <RevealP hide={!isInView}>
-          I'm a software developer from Belfast.
+          Welcome
         </RevealP>
   }
           </WhenInView>
